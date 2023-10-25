@@ -1,0 +1,80 @@
+/*CONTENIDO*/
+article {
+    max-width: 1250px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0;
+}
+/*IMAGEN*/
+figure {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+figure img {
+    width: 98%;
+    max-height: 545px;
+    display: block;
+    margin: 0 auto;
+}
+/*SUBTITULO*/
+h2 {
+    color: #2b0c0cd8;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+/*CAJA  DE CONTENIDO ESTABLECIMIMENTOS*/
+.contenedor1y2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px;
+}
+.contenedor1,
+.contenedor2 {
+    max-width: 520px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.parrafo1,
+.parrafo2 {
+    background-color: #441616;
+    color: rgb(247, 247, 247);
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*BOTÓN*/
+.contenedorbtn {
+    margin: 0 auto 7px;
+}
+.contenedorbtn a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00ff5edc;
+    color: #424242;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 1050px) {
+    .contenedor1y2 {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
